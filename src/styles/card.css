@@ -1,0 +1,33 @@
+.status-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; /* Adjust the gap between the items as needed */
+    padding: 16px; /* Optional: Add some padding to the container */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-container .btn {
+    width: 20%;
+    flex: 1;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 718px){
+    .status-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

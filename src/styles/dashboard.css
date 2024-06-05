@@ -1,0 +1,18 @@
+.status-content{
+
+}
+.add-book{
+    margin-top: 25px !important;
+    margin-bottom: 20px !important;
+    margin: auto;
+    font-size: 1.1rem;
+    background-color: #FFE5B4;
+    border: 2px solid #ff4b2b;
+    color: #ff4b2b;
+    padding: 5px;
+    display: block;
+}
+.add-book:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

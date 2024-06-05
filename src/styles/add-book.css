@@ -1,0 +1,45 @@
+.add-book-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.addbook-form{
+    border: 2px solid #ff4b2b;
+    background-color: #fcf0d8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    font-size: 1.1rem;
+    width: 45%;
+}
+/* add-book.css */
+
+.addbook-form {
+    margin-top: 20px; /* Adjust the top margin to reduce the height of the form */
+}
+
+.addbook-form label {
+    color: #ff4b2b;
+    font-size: 14px; /* Reduce the font size of the labels */
+}
+
+.addbook-form input,
+.addbook-form select {
+    color: #ff4b2b;
+    font-size: 14px; /* Reduce the font size of the input fields and select */
+    padding: 5px; /* Adjust the padding to make the fields smaller */
+    background-color: #ffeac2;
+}
+
+.addbook-form button {
+    background-color: #ff4b2b;
+    color: white;
+    font-size: 14px; /* Reduce the font size of the button */
+    padding: 6px 12px; /* Adjust the padding to make the button smaller */
+}
+.addbook-form button:hover {
+    background-color: #fcb2a5;
+    color: rgb(255, 0, 0);
+    font-size: 14px; /* Reduce the font size of the button */
+    padding: 6px 12px; /* Adjust the padding to make the button smaller */
+}

@@ -1,0 +1,34 @@
+.list-items {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px; 
+    margin-bottom: 10px;
+    color: grey;
+}
+.new-input{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.new-submit{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+.new-submit:hover{
+    cursor: pointer;
+    background-color: rgb(255, 53, 53);
+}
+.add-any:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 718px){
+    .mob-user-profile{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+}
