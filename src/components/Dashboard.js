@@ -132,13 +132,13 @@ const Dashboard = () => {
         }
     };
 
-    const handleContentClick = (item) => {
-        if (item.type === 'book') {
-            fetchBookDetails(item.activityId);
-        } else if (item.type === 'movie') {
-            fetchMovieDetails(item.activityId);
-        }
-    };
+    // const handleContentClick = (item) => {
+    //     if (item.type === 'book') {
+    //         fetchBookDetails(item.activityId);
+    //     } else if (item.type === 'movie') {
+    //         fetchMovieDetails(item.activityId);
+    //     }
+    // };
 
     const handleAddBookNavigate = () => {
         navigate("/add-book");
@@ -168,7 +168,7 @@ const Dashboard = () => {
                 {content && (
                     <>
                         {status === "Activity" && content.map((item) => (
-                            <ActivityCard key={item._id} item={item} onClick={() => handleContentClick(item)} />
+                            <ActivityCard key={item._id} item={item} />
                         ))}
 
                         {(status === "CompletedBooks" || status === "PlanningBooks") && content.map((book) => (
